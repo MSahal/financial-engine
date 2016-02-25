@@ -4,6 +4,11 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
+/**
+ * web service implementation
+ * @author MSA
+ *
+ */
 @Path("/financialengines")
 public class FinancialEngineEndpoint {
     @Produces({"application/json", "application/xml"})

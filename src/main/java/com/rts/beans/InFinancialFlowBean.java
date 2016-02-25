@@ -1,6 +1,13 @@
 package com.rts.beans;
 
+import javax.persistence.Entity;
+
+@Entity
 public class InFinancialFlowBean {
+
+	public InFinancialFlowBean() {
+	
+	}
 
 	private Double	financialAmount;
 

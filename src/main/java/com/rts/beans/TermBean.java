@@ -2,6 +2,9 @@ package com.rts.beans;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+
+@Entity
 public class TermBean {
 
 	private int		paymentNumber;
@@ -115,6 +118,10 @@ public class TermBean {
 	 */
 	public void setRemainingBalance(Double remainingBalance) {
 		this.remainingBalance = remainingBalance;
+	}
+
+	public TermBean() {
+	
 	}
 
 }

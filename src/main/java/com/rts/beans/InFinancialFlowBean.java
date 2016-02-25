@@ -1,21 +1,18 @@
 package com.rts.beans;
 
-import javax.persistence.Entity;
-
-@Entity
 public class InFinancialFlowBean {
 
 	public InFinancialFlowBean() {
-	
+
 	}
 
-	private Double	financialAmount;
+	private Double financialAmount;
 
-	private Double	yearlyInterestRate;
-	private Double	monthlyInterestRate;
+	private Double yearlyInterestRate;
+	private Double monthlyInterestRate;
 
-	private Integer	yearlyDuration;
-	private Integer	monthlyDuration;
+	private Integer yearlyDuration;
+	private Integer monthlyDuration;
 
 	/**
 	 * @return the financialAmount
@@ -94,6 +91,7 @@ public class InFinancialFlowBean {
 
 	/*
 	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override

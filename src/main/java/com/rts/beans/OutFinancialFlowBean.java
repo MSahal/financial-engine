@@ -2,14 +2,10 @@ package com.rts.beans;
 
 import java.util.List;
 
-import javax.persistence.Entity;
-
-@Entity
 public class OutFinancialFlowBean {
 
-	private InFinancialFlowBean	inFinancialFlowBean;
-	private List<TermBean>		termBeanList;
-	
+	private InFinancialFlowBean inFinancialFlowBean;
+	private List<TermBean> termBeanList;
 
 	public OutFinancialFlowBean() {
 	}
@@ -46,6 +42,7 @@ public class OutFinancialFlowBean {
 
 	/*
 	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override

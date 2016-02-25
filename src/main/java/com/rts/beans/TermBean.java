@@ -2,18 +2,15 @@ package com.rts.beans;
 
 import java.util.Date;
 
-import javax.persistence.Entity;
-
-@Entity
 public class TermBean {
 
-	private int		paymentNumber;
-	private Date	paymentDate;
-	private Double	paymentAmount;
-	private Double	interestPaid;
-	private Double	principalPaid;
-	private Double	financialAmount;
-	private Double	remainingBalance;
+	private int paymentNumber;
+	private Date paymentDate;
+	private Double paymentAmount;
+	private Double interestPaid;
+	private Double principalPaid;
+	private Double financialAmount;
+	private Double remainingBalance;
 
 	/**
 	 * @return the paymentNumber
@@ -121,7 +118,7 @@ public class TermBean {
 	}
 
 	public TermBean() {
-	
+
 	}
 
 }

@@ -1,6 +1,6 @@
 
 insert into booking(booking_name) values( 'Josh');
-insert into booking(booking_name) values( 'Michael');
+--insert into booking(booking_name) values( 'Michael');
 --insert into booking(booking_name) values( 'Mario');
 --insert into booking(booking_name) values( 'Michelle');
 --insert into booking(booking_name) values( 'Matt');

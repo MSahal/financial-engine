@@ -18,6 +18,12 @@ public class FinancialEngineEndpoint {
     }
 }
 
+/**
+ * bean
+ * @author msahal
+ *
+ */
+
 class Message {
     private String message;
 
